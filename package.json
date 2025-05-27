@@ -5,6 +5,11 @@
     "express": "^5.1.0",
     "mysql2": "^3.14.1"
   },
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "type": "module",
   "devDependencies": {
     "@types/express": "^5.0.2",
     "@types/node": "^22.15.21",
